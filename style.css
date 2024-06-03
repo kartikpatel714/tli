@@ -321,6 +321,17 @@ section:nth-child(odd) {
   .about-img {
     margin-top: -80px;
   }
+  .a-about {
+    margin-left: -50px;
+    margin-right: -50px;
+  }
+  .a-about {
+    margin-left: -50px;
+    margin-right: -50px;
+  }
+  .a-about .about-contenet p {
+    margin-left: -10px;
+    margin-right: -10px;
 }
 
 /* Services */
