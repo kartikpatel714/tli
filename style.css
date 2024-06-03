@@ -241,12 +241,12 @@ section:nth-child(odd) {
 }
 .about {
   height: fit-content;
-  width: fit-content;
+  /* width: 100%; */
 }
 .about {
-  width: 90%;
+  width: 100%;
   margin: 0 auto;
-  padding: 10px 20px;
+  padding: 10px 10px;
 }
 .about-img {
   flex: 1;
@@ -311,9 +311,11 @@ section:nth-child(odd) {
 @media screen and (max-width: 600px) {
   .heading p {
     font-size: 15px;
-    justify-content: space-between;
-    width: 100%;
+    /* justify-content: space-between; */
+    /* width: 100%; */
     text-align: justify;
+    margin-left: -50px;
+    margin-right: -50px;
   }
   .about-contenet {
     margin-top: 20px;
@@ -332,6 +334,7 @@ section:nth-child(odd) {
   .a-about .about-contenet p {
     margin-left: -10px;
     margin-right: -10px;
+  }
 }
 
 /* Services */
